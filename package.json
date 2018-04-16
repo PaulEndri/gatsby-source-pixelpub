@@ -1,0 +1,25 @@
+{
+  "name": "@paulendri/gatsby-source-pixel-pub",
+  "version": "0.0.1",
+  "description": "Gatsby source plugin for the pixel pub api",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "build": "babel src --out-dir ."
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin"
+  ],
+  "author": "Juan Sedano <jrs.abrecan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "gatsby-source-filesystem": "^1.5.32"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-cli": "^6.26.0"
+  }
+}
